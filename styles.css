@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Montserrat;
+    transition: 0.1s;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.nav-logo {
+    width: 140px;
+}
+
+.nav-link {
+    font-size: 0.8rem;
+}
+
+.hero-section {
+    background-image: url(Images/tj-holowaychuk-1EYMue_AwDw-unsplash.jpg);
+    /* background-image: url(Images/headbg.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-inner {
+    background-color: rgba(0, 49, 122, 0.65);
+    color: #fff;
+    text-align: center;
+    /* margin-top: 200px; */
+    width: fit-content;
+}
+
+.hero-inner h1 {
+    font-weight: 700;
+}
+
+.hero-inner h2 {
+    font-weight: 300;
+    font-size: 1.8rem;
+}
+
+.hero-inner p {
+    font-size: 0.9rem;
+}
+
+.rectangle {
+    height: 4px;
+    width: 160px;
+    background-color: #81bcba;
+}
+
+.btn-info {
+    width: 10rem;
+    font-weight: 600;
+    background-color: #81bcba;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-size: 0.8rem;
+}
