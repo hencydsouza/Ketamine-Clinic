@@ -330,11 +330,11 @@
         width: 500px;
         height: 480px;
         top: -90px;
-        right: -20px;
+        right: -10px;
     }
 
     .help-contact-container {
-        margin-right: 0;
+        margin-right: 30px;
         padding: 4rem 3rem;
     }
 
@@ -409,13 +409,13 @@
 
     .help-image-upper {
         width: 320px;
-        height: 200px;
+        height: 300px;
         top: -90px;
-        right: 0;
+        right: 10px;
     }
 
     .help-contact-container {
-        margin-right: 0px;
+        margin-right: 20px;
         padding: 2rem 1rem;
     }
 
@@ -434,10 +434,10 @@
     }
 
     .help-blue-shadow {
-        height: 250px;
-        bottom: -50px;
-        width: 100%;
-        left: 0;
+        height: 350px;
+        bottom: -20px;
+        width: 102%;
+        left: -2%;
     }
 
     .help-section-lower {
@@ -489,5 +489,21 @@
     .footer-section li,
     .footer-section p {
         font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .help-contact-container {
+        margin-right: 0;
+        padding: 2rem 1rem;
+    }
+
+    .help-blue-shadow{
+        bottom: -50px;
+    }
+
+    .help-image-upper{
+        right: 0;
+        /* left: 0; */
     }
 }
